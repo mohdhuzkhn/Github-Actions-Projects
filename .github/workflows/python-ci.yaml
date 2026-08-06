@@ -1,0 +1,12 @@
+name: Python CI
+
+on:
+  push:
+
+jobs:
+  python-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
