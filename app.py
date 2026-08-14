@@ -4,4 +4,4 @@ print("GitHub Actions is running Python successfully!")
 
 print("We learned uses : ")
 
-print("Project 2 Complete.")
+print("14 August 2026")
