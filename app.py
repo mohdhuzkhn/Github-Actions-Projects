@@ -1,7 +1,7 @@
-import requests
+def add(a, b):
+    return a + b
 
-response = requests.get("https://example.com")
 
-print("🚀 Hello from Python CI!")
-print(f"HTTP Status: {response.status_code}")
-print("GitHub Actions successfully executed Python.")
+if __name__ == "__main__":
+    print("🚀 Hello from Python CI!")
+    print(f"2 + 3 = {add(2, 3)}")
