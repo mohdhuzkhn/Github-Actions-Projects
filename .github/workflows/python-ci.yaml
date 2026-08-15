@@ -25,5 +25,10 @@ jobs:
       - name: Check Code Formatting
         run: python -m black --check .
 
+      - name: Lint with Ruff
+        run: python -m ruff check .
+
       - name: Run Tests
         run: python -m pytest
+
+        
