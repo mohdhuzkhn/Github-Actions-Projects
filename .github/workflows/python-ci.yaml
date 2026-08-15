@@ -22,5 +22,8 @@ jobs:
       - name: Install Dependencies
         run: python -m pip install -r requirements.txt
 
+      - name: Check Code Formatting
+        run: python -m black --check .
+
       - name: Run Tests
         run: python -m pytest
