@@ -1,7 +1,7 @@
-print("🚀 Hello from Python!")
+import requests
 
-print("GitHub Actions is running Python successfully!")
+response = requests.get("https://example.com")
 
-print("We learned uses : ")
-
-print("14 August 2026")
+print("🚀 Hello from Python CI!")
+print(f"HTTP Status: {response.status_code}")
+print("GitHub Actions successfully executed Python.")
