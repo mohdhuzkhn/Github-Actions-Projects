@@ -2,3 +2,4 @@ requests
 pytest
 black
 ruff
+mypy
