@@ -4,3 +4,4 @@ black
 ruff
 mypy
 psycopg
+redis
